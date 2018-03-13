@@ -21,11 +21,11 @@ class FlightBoardingCard extends BoardingCards
                 $finalResult = 'From '.$this->departure.' Airport, take flight '.$this->flightNumber.' to '.$this->arrival.'. Gate '.$this->gateNumber.', seat '.$this->seatNumber.'.';
                 if($this->ticketCounter)
                 {
-                    $finalResult .= 'Baggage drop at ticket counter '.$this->ticketCounter.'.';
+                    $finalResult .= ' Baggage drop at ticket counter '.$this->ticketCounter.'.';
                 }
                 else
                 {
-                    $finalResult .= 'Baggage will we automatically transferred from your last leg.';
+                    $finalResult .= ' Baggage will we automatically transferred from your last leg.';
                 }
                 return $finalResult;
             }
