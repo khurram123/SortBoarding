@@ -1,0 +1,18 @@
+{
+    "name": "khurram.shehzad/sort-boarding",
+    "description": "This application will sort borading cards",
+    "authors": [
+        {
+            "name": "khurram Shehzad",
+            "email": "khurram_bse@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core"
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.4"
+    }
+}
